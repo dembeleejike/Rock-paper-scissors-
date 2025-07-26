@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display : flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f9ff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-container{
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 20px;
+    
+}
+h1{
+    color: #0f172a;
+    font-size: 1.5rem;
+}
+.choices{
+    padding: 15px 25px;
+}
+button{
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0.5rem;
+    transition: background 0.3s;
+    
+}.bot{
+    background: #3b82f6;
+    color: #ffffff;
+}
+.bots{
+    background: #10b981;
+    color: #ffffff;
+}
+.but{
+    background: #f59e0b;
+    color: #ffffff;
+}
+button .bot:hover{
+    background: #2563eb;
+} 
+button .bots:hover{
+    background: #059668;
+}
+button .but:hover{
+    background: #d97706;
+}
